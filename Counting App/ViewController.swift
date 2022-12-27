@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var increaseButton: UIButton!
@@ -17,7 +16,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         counterLabel.text = "0"
     }
 

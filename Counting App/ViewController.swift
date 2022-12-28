@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         counterLabel.text = "0"
     }
 
-    @IBAction func action(_ sender: Any) {
+    @IBAction private func action(_ sender: Any) {
         counter += 1
         counterLabel.text = String(counter)
     }
